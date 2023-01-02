@@ -1,0 +1,30 @@
+.textPrimary {
+  color: #fff;
+}
+
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+a {
+  color: #fff;
+  font-size: small;
+  margin-left: 2rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
